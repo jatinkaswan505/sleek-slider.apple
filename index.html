@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slick.Slider</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ==================SLIDER LINKS=================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ==================JS LINK===================== -->
+    <link rel="stylesheet" href="./assets/css/js/app.js">
+    <!-- =================CSS LINK===================== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <div class="apple">
+                            <a href=""><img src="assets/images/logo.png" alt="" class=" h-50 w-50"></a>
+                        </div>
+                        <label for="iconbox" class=" d-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <input type="checkbox" id="iconbox" hidden class="d-none">
+                        <div class="d-flex align-items-center justify-content-end align-bottom">
+                            <ul class="d-flex gap-5 mb-0 md_screen  ">
+                                <a class="text_in_a fw-normal text-dark" href="#">About apple</a></li>
+                                <a class="text_in_a text-dark" href="#"> apple Features</a>
+                                <a class="text_in_a text-dark" href="#">products Pricing</a>
+                                <!-- <li><a class="text_in_a" href="#"></a></li> -->
+                                <a class="text_in_a text-dark" href="#">Help centre</a>
+                                <!-- <li class="d-lg-none"><button class="button-1">Sign Up</button></li> -->
+                            </ul>
+                            <div class="md_screen">
+                                <!-- <button class="button-1">Sign Up</button> -->
+                            </div>
+                            <label for="iconbox" class="">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <h2 class="mt-5 d-flex justify-content-center fs-1">
+                "Introducing our ecosystem"
+            </h2>
+            <p class="mt-4">Apple's ecosystem is often described as a walled garden. While peripherals such as AirPods,
+                HomePods and AirTags integrate complementarily into the ecosystem, with products such as the iPhone, it
+                does not function as well or with as many features with competitive devices such as Android smartphones.
+            </p>
+            <p class="text-primary opacity-75">"Here are some products which might useful in building ecosystem"-
+            </p>
+            <div class="global_slider mx-auto">
+                <div class="box1 me-2">
+                    <img src="assets/images/iphone.jpeg" alt="" class="w-100">
+                    <h3 class=" pt-5 ps-5 text-white">The I Phone</h3>
+                </div>
+                <div class="box1 me-2">
+                    <img src="assets/images/tablet-computer-isolated-on-black-260nw-448393492.jpg" alt="" class="w-100">
+                    <h3 class=" pt-3 ps-5 text-white">The I PAd</h3>
+                </div>
+                <div class="box1 me-2">
+                    <img src="assets/images/airpods2.jpeg" alt="" class="w-100">
+                    <h3 class=" pt-5 ps-5 text-white">The Airpods</h3>
+                </div>
+                <div class="box1 me-2">
+                    <img src="assets/images/mac2.jpeg" alt="" class="w-100">
+                    <h3 class=" pt-4 ps-5 text-white">The Macbook</h3>
+                </div>
+                <div class="box1 me-2">
+                    <img src="assets/images/watch2.jpeg" alt="" class="w-100">
+                    <h3 class=" pt-5 ps-4 text-white">The Applewatch</h3>
+                </div>
+                <div class="box1 me-2">
+                    <img src="assets/images/airtag.jpeg" alt="" class="w-100">
+                    <h3 class=" pt-5 ps-5 text-white">The Airtag</h3>
+                </div>
+            </div>
+
+            <div class="d-flex2 mt-1 ">
+                <button class="prev"><img src="assets/images/Green-Dark-and-white-arrow-png.png" alt="" class="w-100"></button>
+                <button class="next"><img src="assets/images/Green-Dark-and-white-arrow-right-png.png" alt="" class="w-100"></button>
+            </div>
+
+        </div>
+    </section>
+    <!-- ----------- JS LINK-------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+     $('.global_slider').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            infinite: true,
+            prevArrow:'.prev',
+            nextArrow: '.next',
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        }); 
+</script>
+</body >
+</html >
